@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple DApp</title>
+</head>
+<body>
+    <h1>Simple Storage DApp</h1>
+
+    <div>
+        <label for="newValue">Enter a number:</label>
+        <input type="number" id="newValue">
+        <button onclick="setValue()">Set Value</button>
+    </div>
+
+    <div>
+        <button onclick="getValue()">Get Value</button>
+        <p>Stored Value: <span id="storedValue"></span></p>
+    </div>
+
+    <script src="./src/script.js"></script>
+</body>
+</html>

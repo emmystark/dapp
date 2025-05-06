@@ -1,0 +1,22 @@
+{
+    "name": "my-simple-dapp",
+    "version": "1.0.0",
+    "description": "A simple DApp with Solidity and Hardhat",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "deploy": "npx hardhat run scripts/deploy.js --network localhost",
+      "compile": "npx hardhat compile"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+      "hardhat": "^2.22.1"
+    },
+    "dependencies": {
+      "ethers": "^6.13.1"
+    }
+  }
+  
